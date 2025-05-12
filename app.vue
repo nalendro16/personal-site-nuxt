@@ -1,9 +1,9 @@
 <template>
   <div class="mx-4 md:mx-16 my-8">
-    <UApp>
-      <NuxtLayout>
+    <NuxtLayout>
+      <UApp>
         <NuxtPage />
-      </NuxtLayout>
-    </UApp>
+      </UApp>
+    </NuxtLayout>
   </div>
 </template>

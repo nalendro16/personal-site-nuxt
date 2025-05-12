@@ -1,3 +1,25 @@
+<script setup lang="ts">
+import type { DropdownMenuItem } from '@nuxt/ui'
+
+const items = ref<DropdownMenuItem[]>([
+  {
+    label: 'Profile',
+    icon: 'i-lucide-user',
+    to: '/',
+  },
+  {
+    label: 'Thoughts',
+    icon: 'i-lucide-credit-card',
+    to: '/thoughts',
+  },
+  {
+    label: 'Project',
+    icon: 'i-lucide-cog',
+    to: '/project',
+  },
+])
+</script>
+
 <template>
   <div>
     <nav
@@ -8,9 +30,7 @@
         alt="Nalendro logo"
         class="max-h-16 max-w-16"
       />
-      <ul
-        class="text-2xl md:text-4xl gap-2 font-bold hidden md:flex text-white"
-      >
+      <ul class="text-2xl md:text-4xl gap-2 font-bold hidden md:flex">
         <li>
           <NuxtLink
             to="/thoughts"
@@ -27,7 +47,15 @@
         </li>
       </ul>
 
-      <Icon name="meteor-icons:list" size="40px" class="mr-4 md:hidden" />
+      <UDropdownMenu
+        :items="items"
+        :ui="{
+          content: 'w-48',
+        }"
+      >
+        <Icon name="meteor-icons:list" size="40px" class="mr-4 md:hidden" />
+        <!-- <UButton icon="i-lucide-menu" color="neutral" variant="outline" /> -->
+      </UDropdownMenu>
     </nav>
     <main>
       <slot />

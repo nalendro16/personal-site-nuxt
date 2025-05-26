@@ -874,7 +874,7 @@
     unplugin "^2.3.2"
     unstorage "^1.16.0"
 
-"@nuxt/icon@1.12.0", "@nuxt/icon@^1.12.0":
+"@nuxt/icon@^1.12.0":
   version "1.12.0"
   resolved "https://registry.yarnpkg.com/@nuxt/icon/-/icon-1.12.0.tgz#a33ac4c4667ca2cfe78ab80eaba593344e610efc"
   integrity sha512-aAEq4NQzRXmfR6ajLvA8tuD/5pxaOg/3VzIKqQS68R3D2fGD1pAitTrJAm4A3RX2TnrRMSoYoNw34IyVE5w1dg==

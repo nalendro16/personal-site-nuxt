@@ -7,9 +7,21 @@ const props = defineProps({
 </script>
 
 <template>
-  <UContainer class="h-screen text-center mt-48">
-    <h1>{{ error?.statusCode }}</h1>
-    <p class="text-sm mb-4">Keep patience bro, I'm still working on it</p>
-    <NuxtLink to="/"> <UButton>Go Back Home</UButton> </NuxtLink>
+  <UContainer class="flex flex-col items-center justify-center h-screen">
+    <h1 class="mb-4 text-4xl font-semibold">
+      {{ error?.statusCode }}
+    </h1>
+    <h1 class="mb-4 text-xl font-semibold">
+      {{ error?.message }}
+    </h1>
+    <NuxtLink to="/">
+      <UButton
+        label="Test"
+        size="lg"
+        class="px-8 outline-black outline-4 text-black"
+        variant="outline"
+        >Go Back Home</UButton
+      >
+    </NuxtLink>
   </UContainer>
 </template>

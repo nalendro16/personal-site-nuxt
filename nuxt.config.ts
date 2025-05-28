@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   app: {
     head: {
-      title: 'Nalendro Agung W',
+      title: 'Nalendro',
     },
   },
   compatibilityDate: '2024-11-01',

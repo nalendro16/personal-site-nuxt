@@ -3,7 +3,7 @@
 <template>
   <div>
     <nav
-      class="border-b-4 border-black w-full md:px-16 py-4 flex justify-between items-center"
+      class="border-b-4 border-black w-full md:px-16 flex justify-between items-center -mt-8 py-4"
     >
       <NuxtLink to="/">
         <img
@@ -34,6 +34,7 @@
         </UButton>
       </div>
     </nav>
+
     <main>
       <slot />
     </main>

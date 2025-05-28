@@ -1,10 +1,9 @@
 <template>
   <div class="mx-4 md:mx-16 my-8">
     <UApp>
-      <div>Website Under Construction</div>
-      <!-- <NuxtLayout>
+      <NuxtLayout>
         <NuxtPage />
-      </NuxtLayout> -->
+      </NuxtLayout>
     </UApp>
   </div>
 </template>

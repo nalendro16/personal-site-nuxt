@@ -16,7 +16,7 @@ console.log(data.value, status.value)
   </section>
 
   <UContainer as="article" class="mt-8 md:mt-16">
-    <h1 class="text-4xl font-semibold">Projects</h1>
+    <!-- <h1 class="text-4xl font-semibold">Projects</h1>
     <p class="mb-4 text-2xl">Here's some project i've been built so far</p>
     <div
       class="flex flex-col md:flex-row md:gap-4 gap-8 md:mx-auto justify-center"
@@ -24,15 +24,15 @@ console.log(data.value, status.value)
       <ProjectCard />
       <ProjectCard />
       <ProjectCard />
-    </div>
+    </div> -->
   </UContainer>
 
   <UContainer as="article" class="mt-8 md:mt-16">
-    <h1 class="text-4xl font-semibold">Thoughts</h1>
+    <!-- <h1 class="text-4xl font-semibold">Thoughts</h1>
     <p class="mb-4 text-2xl">
       Sometimes i wrote what's on my mind, or maybe just note to myself
     </p>
     <BlogCard class="mb-8" />
-    <BlogCard />
+    <BlogCard /> -->
   </UContainer>
 </template>

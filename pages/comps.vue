@@ -1,5 +1,7 @@
+<script setup lang="ts"></script>
+
 <template>
-  <div class="my-8">
+  <div class="my-8 h-screen">
     <UButton label="Test" size="xl" class="px-8 py-3" color="warning" />
     <UButton
       label="Test"
